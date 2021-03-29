@@ -181,8 +181,7 @@ public final class ModBlocks {
 
 	@Environment(EnvType.CLIENT)
 	public static void initClient() {
-		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), ModBlocks.QUARTZ_DOOR, ModBlocks.GOLD_DOOR);
-		DoorData.DOORS.forEach(door -> BlockRenderLayerMap.INSTANCE.putBlock(door, RenderLayer.getCutout()));
+
 	}
 
 	public static Block ancientFabricFromDye(DyeColor color) {

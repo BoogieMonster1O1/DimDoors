@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Dimensional Development Discord
+    url: https://discord.gg/f27hdrM
+    about: Please join our Discord for faster support.
+  - name: Hastebin
+    url: https://paste.dimdev.org/
+    about: Use our Hastebin-site for sharing errors.
